@@ -1,0 +1,14 @@
+.navbar-brand img{
+    width: 160px;
+}
+
+.help2{
+display: flex;
+}
+.top-nav{
+    margin-left: 100px
+
+}
+.collapse{
+    justify-content: space-around
+}
