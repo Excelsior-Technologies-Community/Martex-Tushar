@@ -2,13 +2,76 @@
     width: 160px;
 }
 
-.help2{
-display: flex;
-}
 .top-nav{
-    margin-left: 100px
+    margin: 0px auto;
+    max-width: 1140px;
+    padding: 0 15px;
+    position: relative;
 
 }
 .collapse{
-    justify-content: space-around
+    justify-content: end;
+    gap: 50px;
+}
+.sign-in{
+    background: none;
+    color: black;
+    border: none;
+}
+
+.nav-link{
+    font-size: 17.5px;
+    font-weight: 600;
+    margin: 0 7px;
+    display: block;
+    padding: 10px 15px;
+    color: #fff;
+}
+.navbar{
+        --bs-navbar-padding-y: 0.9rem;
+         background-color: rgba(255, 255, 255, 0.692);
+    }
+
+    /* HERO BACKGROUND */
+.hero-bg {
+  background: 
+    url("images/hero-1.jpg") center/cover no-repeat;
+
+  min-height: 100vh;
+  padding-top: 120px;
+}
+
+/* TRANSPARENT NAVBAR */
+.custom-navbar {
+  background: transparent;
+  padding: 35px 0;
+}
+
+/* White links */
+.nav-link {
+  font-weight: 500;
+}
+
+/* Navbar on scroll (optional) */
+.custom-navbar.scrolled {
+    background-color: rgba(255, 255, 255, 0.773);
+      backdrop-filter: blur(15px);
+
+  /* background-image: url(images/logo-pink.png); */
+}
+.hero-bg-l{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+.hero-left-sec h1{
+    font-size: 70px;
+    font-weight: 600;
+}
+.hero-left-sec p{
+    font-size: 20px;
+    font-weight: 650;
+}
+.container img{
+    width: 630px;
 }
