@@ -6,6 +6,7 @@
     <title>Martex</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
     <link rel="stylesheet" href="media.css">
@@ -287,7 +288,7 @@
         <section class="main-7">
             <div class="main-7l">
                 <p>One-Stop Solution</p>
-                <h1>Smart solutions, real-time results</h1>
+                <h1>Smart solutions, <br>real-time results</h1>
                 <p>Sodales tempor sapien quaerat ipsum and congue undo laoreet turpis neque auctor turpis vitae dolor luctus placerat magna ligula and cursus vitae</p>
                 <ul class="main-7-list">
                     <li>Magna dolor luctus at egestas sapien</li>
@@ -298,24 +299,78 @@
             </div>
             <div class="main-7r">
                 <div>
+                    <i class="fa-solid fa-layer-group" style="color: #fa437f;"></i>
                     <h3>Content Marketing</h3>
                     <p>Porta semper lacus and cursus feugiat at primis ultrice a ligula auctor</p>
                 </div>
                 
                 <div>
+                    <i class="fa-solid fa-sack-dollar" style="color: #fa437f;"></i>
                     <h3>Pay Per Click (PPC)</h3>
                     <p>Porta semper lacus and cursus feugiat at primis ultrice a ligula auctor</p>
                 </div>
                 <div>
+                    <i class="fa-brands fa-youtube" style="color: #fa437f;"></i>
                     <h3>Video Marketing</h3>  
                     <p>Porta semper lacus and cursus feugiat at primis ultrice a ligula auctor</p>
                 </div>
                 <div>
+                    <i class="fa-solid fa-chart-line" style="color: #fa437f;"></i>
                     <h3>Business Analytics</h3>
                     <p>Porta semper lacus and cursus feugiat at primis ultrice a ligula auctor</p>
                 </div>
 
             </div>
+
+        </section>
+        <section class="main-8">
+            <div class="main-8l">
+                <img src="images/img-02.png" alt="">
+            </div>
+            <div class="main-8r">
+                <p>Easy Integration</p>
+                <h1>Plug your essential tools in few clicks</h1>
+                <ul class="main-8r-list">
+                    <li>Cursus purus suscipit vitae cubilia magnis volute egestas vitae sapien turpis sodales magna undo aoreet primis</li>
+                    <li>Tempor sapien quaerat an ipsum laoreet purus and sapien dolor an ultrice ipsum aliquam undo congue dolor cursus purus congue and ipsum purus sapien a blandit</li>
+                </ul>
+            </div>
+
+        </section>
+        <section class="main-9">
+            <div class="main-9-head">
+                <h1>Track the progress towards <br>objectives with key results</h1>
+                <p>Ligula risus auctor tempus magna feugiat lacinia.</p>
+            </div>
+            
+            <div class="main-9-img">
+                <img src="images/dashboard-01.png" alt="">
+                <div class="play-btn" onclick="goToYouTube()"></div>
+            </div>
+
+        </section>
+        <section class="main-10">
+            <div class="main-10-head">
+                <p>Martex is loved and trusted by thousands:</p>
+            </div>
+            <div class="main-10-slider">
+
+                 <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="images/brand-1.png" alt=""></div>
+        <div class="swiper-slide"><img src="images/brand-2.png" alt=""></div>
+        <div class="swiper-slide"><img src="images/brand-3.png" alt=""></div>
+        <div class="swiper-slide"><img src="images/brand-4.png" alt=""></div>
+        <div class="swiper-slide"><img src="images/brand-5.png" alt=""></div>
+        <div class="swiper-slide"><img src="images/brand-6.png" alt=""></div>
+        <div class="swiper-slide"><img src="images/brand-7.png" alt=""></div>
+        <div class="swiper-slide"><img src="images/brand-8.png" alt=""></div>
+
+            </div>
+            </div>
+
+            </div>
+
 
         </section>
 
@@ -344,9 +399,48 @@
         <!-- ======= Java Script Section ====== -->
         
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
 
 
 
+
+
+
+<script>
+    var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 10,
+      loop: true,
+      centeredSlides: true,
+      speed: 2000,
+      
+      autoplay: {
+        delay: 2100,
+        disableOnInteraction: false,
+      },
+       breakpoints: {
+        640: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        768: {
+          slidesPerView: 4,
+          spaceBetween: 40,
+        },
+        1024: {
+          slidesPerView: 5,
+          spaceBetween: 50,
+        },
+      },
+    });
+  </script>
+
+
+
+<script>
+function goToYouTube() {
+  window.open("https://youtu.be/7e90gBu4pas?si=fqIEe_Sfyh8BobQt", "_blank");
+}
+</script>
 
 
        <script>

@@ -150,4 +150,49 @@
     .engagement-list li{
         font-size: 15px;
     }
+
+    .main-4{
+        flex-direction: column;
+        margin: 10px;
+    }
+    .main-4r img{
+        width: 100%;
+    }
+    .main-5-img{
+        width: 100%;
+        flex-wrap: wrap;
+        margin: 10px;
+    }
+    .main-5-img1, .main-5-img2{
+        padding: 25px;
+    }
+    .main-5-stats{
+        flex-direction: column;
+        margin: 10px;
+    }
+    .main-6{
+        flex-direction: column;
+        margin: 10px;
+    }
+    .main-6l img{
+        width: 100%;
+    }
+    .main-7{
+        flex-direction: column;
+        margin: 10px;
+    }
+    .main-8{
+        flex-direction: column;
+        margin: 10px;
+    }
+    .main-8l img{
+        width: 100%;
+    }
+    .main-9-head h1{
+        font-size: 28px;
+    }
+    .main-9-head p{
+        font-size: 16px;
+    }
+    
 }
