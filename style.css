@@ -888,6 +888,9 @@ body.dark-mode .nav-link {
   text-align: center;
   margin: 100px 150px;
 }
+.main-13-mid img{
+  width: 100%;
+}
 .main-13-top h1{
   font-size: 60px;
   font-weight: 700;
@@ -1155,30 +1158,194 @@ body.dark-mode .nav-link {
         text-align: center;
         margin: 100px 150px;
       }
+      .main-17-top h1{
+        font-size: 55px;
+        font-weight: 700;
+       }
+        .main-17-top p{
+          font-size: 25px;
+          font-weight: 500;
+          color: #757575;
+          margin: 20px;
+        
+        }
       .main-17-mid{
         text-align: left;
         margin: 60px 0px 80px 0px;
         display: flex;
         justify-content: center;
         gap: 30px;
+        line-height: 1.75;
+        width: 100%;
       }
-      .decimal-list {
-  list-style: none; /* Removes default bullets */
-  counter-reset: item; /* Initializes the counter */
-  margin-left: 0; /* Adjust as needed for alignment */
-  padding-left: 0;
+      .main-17-mid h2{
+        font-size: 26px;
+        font-weight: 700;
+        margin: 30px 0px;
+      } 
+    .main-17-mid p{
+      font-size: 18px;
+      font-weight: 500;
+      color: #757575;
+      margin-top: 20px;
+    }
+    .main-17-mid span{
+      margin: 0px 10px;
+    }
+.main-17l-sublist li{
+  font-size: 17px;
+  font-weight: 500;
+  color: #757575;
+  margin-bottom: 10px;
+}
+.main-17-bottom{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.main-17-bottom h3{
+  background-color: #f5f4fa;
+  font-size: 20px;
+  border-radius: 50px;
+  padding: 22px 50px;
+  font-weight: 600;
+  color: #757575;
+}
+.main-17-bottom a{
+  color: #fa437f;
+  font-weight: 700;
+}
+.main-17-bottom a:hover{
+  color: #000;
+  transition: 0.8s;
+}
+.main-18{
+  text-align: center;
+  margin: 100px 100px;
+  border-radius: 20px; 
+  background: url("images/hero-1.jpg") center/cover no-repeat fixed;
+  
+}
+.main-18-div{
+  background: rgba(0, 0, 0, 0.45); 
+  padding: 80px 200px;
+  border-radius: 20px;
+  color: #fff;
+}
+.main-18-div h1{
+  font-size: 55px;
+  font-weight: 700;
+ }
+  .main-18-div p{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px 0px;
+  
+  }
+  .main-18-div p:last-child{
+    font-size: 16px;
+    font-weight: 500;
+    margin: 20px 0px;
+  
+  }
+  .main-18-div button{
+    background-color: #fa437f;
+    border: #fa437f solid 2px;
+    border-radius: 5px;
+    padding: 12px 30px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .main-18-div button:hover{
+    background-color: transparent;
+    border: #fff solid 2px;
+    transition: 0.6s;
+  }
+.footer{
+    margin: 100px 100px;
+}
+.footer-top{
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer-logo{
+    width: 250px;
+}
+.footer-logo img{
+    width: 180px;
+}
+.footer-link{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+.footer-link div{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.footer-link h3{
+    font-size: 20px;
+    font-weight: 700;
+}
+.footer-link a{
+    font-size: 17px;
+    font-weight: 500;
+    color: #757575;
+    text-decoration: none;
+}
+.footer-link a:hover{
+    color: #2b2e37;
+    transition: 0.6s;
+}
+.footer-mail h3{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.footer-mail input{
+  position: relative;
+    width: 300px;
+    padding: 10px 25px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    background-color: #e8e6e6;
+}
+.footer-mail input::placeholder{
+    font-size: 18px;
+    font-weight: 400;
+    color: #757575;
+}
+.footer-mail i{
+    position: absolute;
+    right: 120px;
+    color: #fa437f;
+    cursor: pointer;
+    margin-top: 15px;
+    font-size: 15px;
+}
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+    border-top: 1px solid #e6e4e4;
+    padding-top: 30px;
+}
+.footer-bottom p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #757575;
+}
+.footer-bottom i{
+    font-size: 20px;
+    color: #757575;
+    margin: 0px 8px;
+    cursor: pointer;
 }
 
-.main-17l-list li {
-  counter-increment: item; /* Increments the counter for each li */
-  display: block; /* Ensures proper layout */
-  margin-left: 2em; /* Creates space for the number */
-}
 
-.main-17l-list li:before {
-  content: counter(item) ". "; /* Inserts the counter value followed by a period and space */
-  display: inline-block;
-  /* You can style the number's color, font, etc. here */
-  /* color: blue; */ 
-  /* font-weight: bold; */
-}

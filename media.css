@@ -155,8 +155,29 @@
         flex-direction: column;
         margin: 10px;
     }
+    .main-4l h2{
+        font-size: 22px;
+    }
+    .main-4l p{
+        font-size: 16px;
+    }
+
     .main-4r img{
         width: 100%;
+    }
+    
+    .main-5-head{
+        margin: 12px;
+    }
+    .main-5-head br{
+        display: none;
+    }
+    .main-5-head h1{
+        font-size: 28px;
+
+    }
+    .main-5-head p{
+        font-size: 16px;
     }
     .main-5-img{
         width: 100%;
@@ -169,6 +190,17 @@
     .main-5-stats{
         flex-direction: column;
         margin: 10px;
+        text-align: center;
+    }
+    .main-5-stats h1{
+        font-size: 30px;
+    }
+    .main-5-stats p{
+        font-size: 16px;
+    }
+    .main-5-stats div{
+        flex-direction: column;
+        gap: 2px;
     }
     .main-6{
         flex-direction: column;
@@ -177,9 +209,29 @@
     .main-6l img{
         width: 100%;
     }
+    .main-6r h2{
+        font-size: 22px;
+    }
+    .main-6r p{
+        font-size: 16px;
+    }
+   
+    .main-6r-btn button{
+        padding: 5px 22px;
+        font-size: 15px;
+    }
     .main-7{
         flex-direction: column;
         margin: 10px;
+    }
+    .main-7l br{
+        display: none;
+    }
+    .main-7l h1{
+        font-size: 25px;
+    }
+    .main-7l p{
+        font-size: 16px;
     }
     .main-8{
         flex-direction: column;
@@ -194,5 +246,32 @@
     .main-9-head p{
         font-size: 16px;
     }
-    
+    .main-11-bottom{
+        flex-direction: column;
+        margin: 10px;
+    }
+    .main-13-top h1{
+        font-size: 28px;
+    }
+    .main-14r{
+        display: none;
+    }
+    .our-clients{
+        flex-direction: column;
+    }
+    .main-16-top h1{
+        font-size: 28px;
+    }
+    .main-16-mid{
+        flex-direction: column;
+    }
+    .main-18{
+        margin: 20px;
+    }
+    .main-18-div{
+        padding: 0;
+    }
+    .footer-link{
+        flex-wrap: wrap;
+    }
 }
