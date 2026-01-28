@@ -1033,6 +1033,7 @@ body.dark-mode .nav-link {
       align-items: center;
       color: #757575;
       margin-bottom: 100px;
+      height: auto;
     }
     .client-info{
       display: flex;
@@ -1121,16 +1122,23 @@ body.dark-mode .nav-link {
         justify-content: center;
         gap: 30px;
       }
+      .Integrations{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        width: 200px;
+      }
       .Integration-icon{
         background-color: #fff;
         border-radius: 10px;
         box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-        padding: 50px 70px;
         align-items: center;
-        width: 100%;
+        padding: 50px 70px;
       }
       .Integration-icon img{
-        width: 70px;
+        width: 100%;
+
         cursor: pointer;
       }
       .Integration-name h3{

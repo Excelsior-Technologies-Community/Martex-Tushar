@@ -488,7 +488,7 @@
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.explicabo recusandae itaque beatae explicabo recusandae itaque beatae Corrupti, totam quibusdam voluptatum explicabo recusandae itaque beatae  soluta error deleniti!</p>
       </div>
         <div class="client-info">
-            <div class="clent-img">
+            <div class="client-img">
                 <img src="images/review-author-2.jpg" alt="">
             </div>
             <div>
@@ -713,7 +713,7 @@
                 </div>
                 <div class="main-17-mid">
                     <div class="main-17l">
-                        <ol class="main-17l list">
+                        <ol class="main-17l-list">
                             <h2><span>1. </span>Getting started with Martex</h2>
                             <p>Etiam amet mauris suscipit in odio integer congue metus and vitae arcu mollis blandit ultrice ligula egestas magna suscipit lectus magna suscipit luctus blandit and laoreet</p>
                             <h2><span>2. </span>What's inside the package?</h2>
@@ -726,7 +726,7 @@
                         </ol>
                     </div>
                     <div class="main-17r">
-                         <ol start="4" class="main-17r list">
+                         <ol start="4" class="main-17r-list">
                             <h2><span>4. </span>How does Martex handle my privacy?</h2>
                             <p>Quaerat sodales sapien euismod blandit purus a purus ipsum primis in cubilia laoreet augue luctus dolor luctus</p>
                             <p>An enim nullam tempor sapien gravida donec congue metus. Vitae arcu mollis blandit integer nemo volute velna</p>
@@ -847,6 +847,20 @@
         el: ".swiper-pagination",
         clickable: true,
       },
+        breakpoints: {
+            350: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+            },
+            599: {
+            slidesPerView: 2,
+            spaceBetween: 40,
+            },
+            1000: {
+            slidesPerView: 3,
+            spaceBetween: 50,
+            },
+        },
     });
   </script>
 
@@ -862,15 +876,15 @@
         disableOnInteraction: false,
       },
        breakpoints: {
-        640: {
+        350: {
           slidesPerView: 2,
           spaceBetween: 20,
         },
-        768: {
+        668: {
           slidesPerView: 4,
           spaceBetween: 40,
         },
-        1024: {
+        1000: {
           slidesPerView: 5,
           spaceBetween: 50,
         },
