@@ -44,35 +44,267 @@
         top: 10%;
     }
     .engagement-sec{
-        flex-direction: column;
+        gap: 10px;
+        justify-content: space-around;
+        align-items: center;
+        }
+    .engagement-right{
+        width: 70%;
+        gap: 0;
+    }
+    .engagement-right h1{
+        font-size: 30px;
+    }
+    .engagement-right p{
+        font-size: 14px;
+    }
+    .engagement-right h3{
+        font-size: 20px;
+    }
+    .engagement-list li{
+        font-size: 14px;
+        margin-bottom: 10px;
     }
     .engagement-left img{
         width: 100%;
     }
     .main-4{
-        flex-direction: column;
+        gap: 10px;
+        justify-content: space-around;
+        align-items: center;
         }
+        .main-4l{
+        width: 70%;
+        gap: 0;
+        line-height: 25px;
+        }
+    .main-4l h2{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .main-4l p{
+        font-size: 14px;
+    }
+    .main-4-list li{
+        font-size: 12px;
+        margin-bottom: 0px;
+    }
+
+    .main-4r img{
+        width: 100%;
+    }
+    .main-5-head h1{
+        font-size: 32px;
+        padding: 0 80px;
+    }
+    .main-5-head p{
+        font-size: 16px;
+    }
         .main-5-img{
-        width: 90%;
-        /* flex-wrap: wrap; */
-        margin: 25px;
+        width: 80%;
+        margin: 25px 100px;
+    }
+    .main-5-img1 h2, .main-5-img2 h2{
+        font-size: 20px;
+    }
+    .main-5-img1 p, .main-5-img2 p{
+        font-size: 14px;
     }
     .main-5-img1, .main-5-img2{
         padding: 25px;
     }
     .main-5-stats{
-        flex-direction: column;
-        margin: 10px;
+        margin: 100px;
         text-align: center;
         align-items: center;
+        gap: 80px;
+    }
+    .main-5-stats h1{
+        font-size: 32px;
+    }
+    .main-5-stats p{
+        font-size: 16px;
     }
     .main-5-stats div{
         flex-direction: column;
         gap: 2px;
     }
-    section{
+    .main-6{
+        gap: 10px;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+    .main-6l img{
+        width: 100%;
+    }
+    .main-6r{
+        width: 70%;
+        gap: 0;
+        line-height: 23px;
+    }
+    .main-6-list li {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .main-6r h2{
+        font-size: 20px;
+    }
+    .main-6r p{
+        font-size: 14px;
+    }
+    .main-7{
+        gap: 10px;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .main-7l{
+        width: 70%;
+        gap: 0;
+        line-height: 23px;
+    }
+    .main-7l h1{
+        font-size: 28px;
+    }
+    .main-7l p{
+        font-size: 14px;
+    }
+    .main-7-list li{
+        font-size: 14px;
+    }
+    .main-7r div{
+        width: 180px;
+        padding: 20px;
+    }
+    .main-7r h3{
+        font-size: 18px;
+    }
+    .main-7r p{
+        font-size: 12px;
+    }
+    .main-7r i{
+        font-size: 30px;
+    }
+    .main-8{
+        gap: 10px;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+    .main-8l img{
+        width: 100%;
+    }
+    .main-8r{
+        width: 70%;
+        gap: 0;
+        line-height: 23px;
+    }
+    .main-8-list li {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    .main-8r h1{
+        font-size: 20px;
+    }
+    .main-9{
+        width: 100%;
+        padding-top: 70px;
+        min-height: 700px;
+    }
+    .main-9-head h1{
+        font-size: 32px;
+    }
+    .main-9-head p{
+        font-size: 16px;
+    }
+    .main-11-top h3{
+        font-size: 32px;
+    }
+    .main-11-top p{
+        font-size: 16px;
+    }
+    .main-11-card h3{
+        font-size: 18px;
+    }
+    .main-11-card p{
+        font-size: 14px;
+    }
+    .main-13-top h1{
+        font-size: 35px;
+    }
+    .main-13-top p{
+        font-size: 16px;
+    }
+    .main-14{
+        gap: 0;
+        justify-content: space-around;
+        /* margin: 50px 100px; */
+    }
+    .main-13-list{
+        width: 80%;
+    }
+    .main-13-list h3{
+        font-size: 20px;
+    }
+    .main-13-list p{
+        font-size: 14px;
+        margin: 0%;
+    }
+    .count{
+        gap: 2px;
+        margin-top: 15px;
+    }
+    .count button{
+        font-size: 10px;
+        padding: 5px 10px;
+    }
+    .main-14l{
+        width: 150%;
+    }
+    .main-14r{
+        gap: 10px;
+        justify-content: center;
+    }
+    .main-15-top h1{
+        font-size: 35px;
+    }
+    .main-15-top p{
+        font-size: 16px;
+    }
+    .main-16-mid{
+        flex-wrap: wrap;
         margin: 20px;
     }
+    .Integrations{
+        width: 80px;
+    }
+    .Integration-icon{
+        padding: 20px 20px;
+    }
+    .main-16-top h1{
+        font-size: 35px;
+    }
+    .main-16-top p{
+        font-size: 16px;
+    }
+    .main-17-top h1{
+        font-size: 35px;
+    }
+    .main-17-top p{
+        font-size: 16px;
+    }
+    .main-17-mid{
+        flex-direction: column;
+    }
+    .main-18-div{
+        padding: 20px 160px;
+    }
+    .main-18-div h1 {
+        font-size: 35px;
+    }
+    
+    
+
 }
 
 
