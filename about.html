@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Martex About Us</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="about.css">
     <link rel="stylesheet" href="media.css">
 
 
 </head>
 <body>
-    <header class="navbar sticky-top bg-body-tertiary mw-100 shadow-sm p-4">
+    <header class="navbar sticky-top bg-body-tertiary mw-100 shadow-sm" id="navbar">
         <div class="container-fluid d-flex justify-content-evenly align-items-center ">
 
             <a class="navbar-brand blue-logo" href="#"><img src="images/logo-blue.png" alt=""></a>
@@ -75,6 +75,56 @@
         
 
     </section>
+    <section class="abt-2">
+        <div class="abt-2-top d-flex lh-lg">
+
+            <div class="abt-2l">
+                <h1>Mission and impact</h1>
+                <p>Sodales tempor sapien quaerat ipsum undo congue laoreet turpis neque auctor turpis vitae dolor luctus placerat magna and ligula cursus purus vitae purus an ipsum suscipit</p>
+                <ul>
+                    <li>Tempor sapien quaerat an ipsum laoreet purus and sapien dolor an ultrice ipsum aliquam undo congue dolor cursus</li>
+                    <li>Cursus purus suscipit vitae cubilia magnis volute egestas vitae sapien turpis ultrice auctor congue magna placerat</li>
+                </ul>
+            </div>
+            <div class="abt-2r">
+                <h1>We deliver results</h1>
+                <p>Nemo ipsam egestas volute turpis egestas ipsum and purus sapien ultrice an aliquam quaerat ipsum augue turpis sapien cursus congue magna purus quaerat at ligula purus egestas magna cursus undo varius purus magnis sapien quaerat</p>
+                <p>Egestas volute nemo ipsam turpis egestas ipsum and purus sapien ultrice an aliquam quaerat ipsum augue turpis sapien cursus congue magna purus quaerat at ligula purus egestas magna cursus undo varius purus quaerat sapien magnis</p>
+            </div>
+        </div>
+        <div class="abt-2-bottom d-flex" id="about-2-section">
+            <div class="abt-2-rating">
+                <h1 class="counter" data-target="26620" data-format="k">0</h1>
+                <h3>Happy Customers</h3>
+                <p>Porta justo integer and velna vitae auctor and magna quaerat ligula</p>
+            </div>
+            <div class="abt-2-rating">
+                <h1 class="counter" data-target="13540" data-format="k">0</h1>
+                <h3>Positive Ratings</h3>
+                <p>Porta justo integer and velna vitae auctor and magna quaerat ligula</p>
+            </div>
+            <div class="abt-2-rating">
+                <h1 class="counter" data-target="4.87/5" data-format="decimal">0</h1>
+                <h3>Rating</h3>
+                <p>Porta justo integer and velna vitae auctor and magna quaerat ligula</p>
+            </div>
+        </div>
+
+    </section>
+    <section class="abt-3 d-flex">
+        <div class="abt-3l">
+            <p>Co-founder at Martex</p>
+            <h1>Henry Adams</h1>
+            <p>"Sodales tempor sapien diam purus ipsum quaerat and volute fusce a congue laoreet turpis neque diam auctor turpis vitae dolor magna luctus placerat neque ipsum fusce cursus ligula cursus purus vitae purus and ipsum suscipit. Nemo ipsam cubilia donec turpis undo egestas ipsum a purus sapien ultrice aliquam lacus and quaerat an ipsum augue turpis sapien cursus congue augue"</p>
+        </div>
+        <div class="abt-3r video-wrapper">
+            <img src="images/img-17.jpg" alt="">
+
+              <div class="play-btn">
+    <span></span>
+  </div>
+        </div>
+    </section>
 
 
 
@@ -93,6 +143,64 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+    const counters = document.querySelectorAll(".counter");
+let started = false;
+
+function formatNumber(value, type) {
+  if (type === "k") return (value / 1000).toFixed(1) + "k";
+  if (type === "decimal") return value.toFixed(2);
+  return Math.floor(value);
+}
+
+function startCounters() {
+  counters.forEach(counter => {
+    const target = parseFloat(counter.dataset.target);
+    const format = counter.dataset.format;
+    let count = 0;
+    const increment = target / 120;
+
+    const interval = setInterval(() => {
+      count += increment;
+
+      if (count >= target) {
+        counter.innerText = formatNumber(target, format);
+        clearInterval(interval);
+      } else {
+        counter.innerText = formatNumber(count, format);
+      }
+    }, 20);
+  });
+}
+
+function checkScroll() {
+  const section = document.getElementById("about-2-section");
+  if (!section) return; 
+  const sectionTop = section.getBoundingClientRect().top;
+  const windowHeight = window.innerHeight;
+
+  if (sectionTop < windowHeight - 50 && !started) {
+    started = true;
+    startCounters();
+  }
+}
+
+window.addEventListener("scroll", checkScroll);
+window.addEventListener("load", checkScroll);
+</script>
+
+<script>
+const navbar = document.getElementById("navbar");
+
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 60) {
+    navbar.classList.add("scrolled");
+  } else {
+    navbar.classList.remove("scrolled");
+  }
+});
+</script>
 
 
 </body>

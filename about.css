@@ -1,0 +1,268 @@
+/* About Us Page CSS   */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+/* HEADER NAVBAR */
+#navbar {
+  height: 90px;
+  background: rgba(255,255,255,0.9) !important;
+  backdrop-filter: blur(15px);
+  transition: all 0.8s ease;
+}
+
+/* Inner alignment */
+#navbar .container {
+  justify-content: space-between;
+}
+
+/* Logo */
+.navbar-brand img {
+  width: 165px;
+  transition: 0.35s ease;
+}
+
+/* Menu spacing */
+.header-menu {
+  gap: 28px;
+}
+
+/* Links */
+.nav-link {
+  font-size: 16.5px;
+  font-weight: 500;
+  color: #000 !important;
+}
+
+/* Buttons */
+.sign-in-btn button {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* SCROLL EFFECT */
+#navbar.scrolled {
+  height: 65px;
+}
+
+#navbar.scrolled .navbar-brand img {
+  width: 145px;
+}
+
+
+
+.abt-1-top{
+  margin: 80px 100px;
+  padding-right: 420px;
+  h1{
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  p{
+    font-size: 18px;
+    color: #757575;
+  }
+}
+
+
+.abt-1{
+  width: 100%;
+}
+
+.abt-1-bottom{
+  /* width: 100%; */
+  margin: 50px;
+}
+.abt-1-bottom img{
+  border-radius: 20px;
+  width: 100%;
+}
+.abt-img img{
+  width: 100%;
+}
+.abt-img-left img{
+  margin:  0px 10px;
+  margin-bottom: 20px;
+} 
+.abt-img-right img{
+  margin:  0px 10px;
+  margin-bottom: 20px;
+} 
+.abt-img-left{
+  margin: 10px;
+  width: 40%;;
+}
+.abt-img-left img:first-child{
+  width: 80%;
+  margin-left: 120px;
+}
+.abt-img-right{
+  margin: 10px;
+  width: 60%;
+}
+.abt-img{
+  display: flex;
+  margin: 10px;
+}
+.abt-img img{
+  width: 48%;
+}
+.for-bg-img{
+  /* background-image: url(); */
+  background-color: #2e3648;
+  padding: 20px;
+  color: #f8f9fe;
+  border-radius: 20px;
+  p{
+    font-size: 16px;
+  }
+  h3{
+    font-size: 20px;
+  }
+  span{
+    font-size: 18px;
+  }
+}
+
+
+.abt-2{
+  margin: 100px 130px;
+  
+}
+.abt-2-top{
+width: 100%;
+justify-content: space-around;
+gap: 50px;
+}
+.abt-2l{
+  width: 50%;
+  h1{
+    font-size: 28px;
+    font-weight: 550;
+  }
+  p{
+    color: #757575;
+    font-size: 17.5px;
+
+  }
+  li{
+    color: #757575;
+    font-size: 17.5px;
+
+  }
+}
+.abt-2r{
+  width: 50%;
+  h1{
+    font-size: 28px;
+    font-weight: 550;
+  }
+  p{
+    color: #757575;
+    font-size: 17.5px;
+  }
+}
+.abt-2-bottom{
+  margin: 100px 0;
+}
+.abt-2-rating{
+  h1{
+    font-size: 60px;
+    font-weight: 550;
+    border-bottom: #000 1px solid;
+    width: 70%;
+  }
+  h3{
+    font-size: 25px;
+    font-weight: 600;
+  }
+  p{
+    font-size: 18px;
+    color: #757575;
+  }
+}
+.abt-3{
+  background-image: url(images/bg-img-09.jpeg);
+   /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* min-height: 150vh; */
+    padding-top: 120px;
+    padding: 100px;
+    gap: 50px;
+    align-items: center;
+}
+.abt-3l{
+  width: 50%;
+  line-height: 2;
+  p{
+    font-size: 20px;
+    color: #757575;
+  }
+  h1{
+    font-size: 60px;
+    font-weight: 700;
+  }
+}
+.abt-3r{
+  width: 50%;
+}
+.abt-3r img{
+  border-radius: 20px;
+  width: 100%;
+}
+
+
+.video-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 520px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.video-wrapper img {
+  width: 100%;
+  display: block;
+}
+
+/* Play Button */
+.play-btn {
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: 90px;
+  height: 90px;
+  background: #1677ff;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.5s ease;
+}
+
+.play-btn span {
+  width: 0;
+  height: 0;
+  border-left: 40px solid #fff;
+  border-top: 21px solid transparent;
+  border-bottom: 26px solid transparent;
+  margin-left: 14px;
+}
+
+/* Hover effect (Martex-like) */
+.play-btn:hover {
+  transform: scale(1.08);
+  box-shadow: 0px 0px 0px 20px  rgba(255, 255, 255, 0.19);
+}
+
+
+
+
+
