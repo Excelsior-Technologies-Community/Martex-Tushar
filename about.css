@@ -80,7 +80,7 @@ body {
   margin: 50px;
 }
 .abt-1-bottom img{
-  border-radius: 20px;
+  border-radius: 10px;
   width: 100%;
 }
 .abt-img img{
@@ -90,6 +90,9 @@ body {
   margin:  0px 10px;
   margin-bottom: 20px;
 } 
+.abt-img-left img:last-child{
+  border-radius: 0;
+}
 .abt-img-right img{
   margin:  0px 10px;
   margin-bottom: 20px;
@@ -114,13 +117,18 @@ body {
   width: 48%;
 }
 .for-bg-img{
-  /* background-image: url(); */
+  background-image: url(images/pattern-01.png);
   background-color: #2e3648;
-  padding: 20px;
-  color: #f8f9fe;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 30px;
+  padding-top: 80px;
+  color: #ffffff;
   border-radius: 20px;
+  margin: 0px 15px;
   p{
-    font-size: 16px;
+    font-size: 18px;
   }
   h3{
     font-size: 20px;
@@ -172,6 +180,7 @@ gap: 50px;
   margin: 100px 0;
 }
 .abt-2-rating{
+  font-family: "Outfit", sans-serif;
   h1{
     font-size: 60px;
     font-weight: 550;
@@ -308,7 +317,7 @@ gap: 50px;
 .abt-5{
   text-align: center;
   margin: 50px 100px;
-  margin-top: 200px;
+  margin-top: 100px;
 }
 .abt-5-head{
   font-size: 20px;
@@ -867,12 +876,23 @@ gap: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 80px;
-    border-top: 1px solid #e6e4e4;
+    margin: 30px 0;
     padding-top: 30px;
 }
 .footer-bottom p{
     font-size: 16px;
     font-weight: 500;
     color: #757575;
+}
+ .fade_rule {
+        height: 1px;
+        background-color: #e6e4e4;
+        width: 100%;
+        margin: 0 auto;
+        background-image: linear-gradient(left , white 2%, #E6E6E6 50%, white 98%);
+        background-image: -o-linear-gradient(left , white 2%, #E6E6E6 50%, white 98%);
+        background-image: -moz-linear-gradient(left , white 2%, #E6E6E6 50%, white 98%);
+        background-image: -webkit-linear-gradient(left , white 2%, #E6E6E6 50%, white 98%);
+        background-image: -ms-linear-gradient(left , white 2%, #E6E6E6 50%, white 98%);
+        /* background-image: -webkit-gradient( linear, left bottom, right bottom, color-stop(0.02, white), color-stop(0.5, gray), color-stop(0.98, white) ); */
 }
