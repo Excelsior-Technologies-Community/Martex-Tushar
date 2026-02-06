@@ -303,6 +303,137 @@
         font-size: 35px;
     }
     
+
+    /* About Us  */
+
+
+.hd-menu{
+    display: none !important;
+}
+
+    .abt-1-top{
+        margin: 50px 100px;
+        padding-right: 60px;
+        h1{
+            font-size: 40px;
+        }
+        p{
+            font-size: 16px;
+        }
+    }
+    .abt-img-left img:first-child{
+  width: 90%;
+  margin-left: 40px;
+  
+}
+.for-bg-img{
+    padding:  50px 20px;
+    p{
+        font-size: 12px;
+    }
+    h3{
+        font-size: 14px;
+    }
+    span{
+        font-size: 14px;
+
+    }
+}
+.abt-img img {
+    width: 40%;
+}
+.abt-3l{
+    width: 100%;
+    h1{
+        font-size: 40px;
+    }
+    p{
+        font-size: 14px;
+    }
+}
+.abt-4-top{
+    h1{
+        font-size: 40px;
+    }
+    p{
+        font-size: 18px;
+    }
+}
+.abt-icon-dtl {
+    h1{
+        font-size: 20px;
+    }
+    p{
+        font-size: 14px 
+        ;
+    }
+}
+.abt-6-top{
+    h1{
+        font-size: 40px;
+                padding: 0px 180px;
+    }
+}
+.abt-7{
+    padding: 50px;
+}
+.abt-7l{
+    width: 100%;
+    p{
+        font-size: 14px;
+    }
+    h1{
+        font-size: 30px;
+    }
+}
+.abt-7r{
+    width: 100%;
+}
+.abt-8r{
+    width: 100%;
+    p{
+        font-size: 14px;
+    }
+    h1{
+        font-size: 30px;
+    }
+}
+.abt-8l{
+    width: 100%;
+}
+.abt-9-top{
+    h1{
+        font-size: 40px;
+                padding: 0px 180px;
+    }
+    h1 br{
+        display: none;
+    }
+}
+.abt-10{
+    padding: 50px 100px;
+}
+.abt-10l{
+    width: 100%;
+    p{
+        font-size: 14px;
+    }
+    h1{
+        font-size: 30px;
+    }
+}
+.abt-10r{
+    width: 100%;
+}
+.articles-3{
+    display: none;
+}
+.footer-top{
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
     
 
 }
@@ -714,15 +845,17 @@
         }
     }
     .abt-1-bottom{
-        margin: 10px;
-        width: 100%;
+        margin: 20px;
+        /* width: 100%; */
         flex-direction: column;
+        overflow: hidden;
     }
       .abt-img-left{
         width: 100%;
       }
       .abt-img-left img{
         margin: 0;
+        width: 100%;
       }
       .abt-img-right{
         width: 100%;
@@ -873,41 +1006,148 @@
         flex-direction: column;
     }
     .abt-7l {
+        order: 2;
         width: 100%;
         padding: 10px;
         p{
-            font-size: 14px;
+            font-size: 15px;
         }
         p:first-child {
-            font-size: 14px;
+            font-size: 15px;
         }
         h1{
-            font-size: 20px;
+            font-size: 25px;
         }
     }
     .abt-7r {
+        order: 1;
         width: 100%;
     }
     .abt-8{
         margin: 10px;
         flex-direction: column;
     }
+    .abt-8l {
+    width: 100%;
+    }
+    .abt-8r {
+    width: 100%;
+    p:first-child{
+        font-size: 14px;
+    }
+    p{
+        font-size: 14px;
+    }
+    h1{
+        font-size: 25px;
+    }
+    }
     .abt-9-top {
+        margin: 0;
     h1 {
         padding: 0;
+        font-size: 28px;
+    }
+    h1 br{
+       display: none;
+    }
+    p{
+        font-size: 16px;
     }
     .abt-11{
         padding: 0;
     }
 }
+.abt-9-mid{
+    flex-direction: column;
+    width: 100%;
+    /* margin: 0px 20px; */
+}
+.abt-9-card {
+    padding: 15px 25px;
+    width: 100%;
+}
+.abt-9-bottom-head p{
+    font-size: 16px;
+    padding: 0px 71px;
+}
+.abt-10{
+    padding: 20px;
+    flex-direction: column;
+}
+.abt-10l{
+    order: 2;
+    width: 100%;
+    p{
+        font-size: 14px;
+    }
+    h1{
+        font-size: 25px;
+    }
+    li{
+        font-size: 14px;
+    }
+}
+.abt-11{
+    padding: 0;
+}
+.abt-11-top{
+    padding: 10px 50px;
+    h1{
+        font-size: 25px;
+    }
+    p{
+        font-size: 16px;
+    }
+}
+.articles-1, .articles-2, .articles-3{
+    width: 100%;
+    a{
+        font-size: 18px;
+    }
+    p{
+        font-size: 16px;
+    }
+    h4{
+        font-size: 16px;
+
+    }
+    
+}
 .abt-11-bottom{
     flex-direction: column;
+    padding: 20px;
 }
 .footer-top {
     flex-direction: column;
     margin: 0;
+    text-align: center;
+}
+.ft-l{
+    h1{
+        font-size: 25px;
+        padding: 20px 20px;
+    }
+}
+.ft-r{
+    width: 100%;
+input{
+    width: 100%;
+            padding: 18px 10px;
+    text-align: center;
+}
+button{
+    width: 100%;
+
+}
+}
+.ft-btn{
+    margin: 20px 0;
+    margin-bottom: 50px;
 }
 .bg-box{
     width: 100%;
 }
 }
+
+
