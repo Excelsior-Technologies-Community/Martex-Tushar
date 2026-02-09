@@ -1,0 +1,63 @@
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+/* HEADER NAVBAR */
+#navbar {
+  height: 90px;
+  background: transparent !important;
+  transition: all 0.4s ease;
+}
+
+#navbar .blue-logo img {
+  content: url("images/logo-blue.png");
+}
+
+/* Inner alignment */
+#navbar .container {
+  justify-content: space-between;
+}
+
+/* Logo */
+.navbar-brand img {
+  width: 165px;
+  transition: 0.35s ease;
+}
+
+/* Menu spacing */
+.header-menu {
+  gap: 28px;
+}
+
+/* Links */
+.nav-link {
+  font-size: 16.5px;
+  font-weight: 500;
+  color: #000 !important;
+}
+
+/* Buttons */
+.sign-in-btn button {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* AFTER SCROLL */
+#navbar.scrolled {
+  background: #fff !important;
+  height: 65px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+}
+
+#navbar.scrolled .blue-logo img {
+  content: url("images/logo-white.png"); /* change logo */
+}
+
+#navbar.scrolled .navbar-brand img {
+  width: 145px;
+}

@@ -89,10 +89,10 @@ body {
 /* White links */
 .nav-link {
   font-weight: 500;
-  color: #fff;
+  color: #000000;
 }
 .nav-link:hover{
-    color: #fff;
+    color: #000000;
 }
 
 

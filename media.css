@@ -436,10 +436,52 @@
 }
     
 
+
+
+
+/* /// OUR TEAM ///   */
+
+
+.ot-bg{
+    min-height: 400px;
+}
+.ot-bg-l{
+    padding: 0;
+
+    padding-right: 41%;
+    h1{
+        font-size: 30px;
+    }
+    p{
+        font-size: 16px;
+    }
+}
+.ot-bg-r{
+    img{
+        width: 115%;
+    }
+    
+}
+.ot-3-card{
+    padding: 10px 20px;
+    flex-basis: 47%;
+    p{
+        font-size: 14px;
+    }
+    h2{
+        font-size: 20px;
+    }
+}
+.ot-3-bottom{
+    padding: 50px 100px;
+    h1{
+        font-size: 35px;
+    }
 }
 
 
 
+}
 
 
 
@@ -1148,6 +1190,64 @@ button{
 .bg-box{
     width: 100%;
 }
+
+
+/* OUR TEAM /// */
+
+.ot-2,.ot-3{
+    margin: 0px;
+}
+.ot-bg{
+    flex-direction: column;
+    padding: 30px;
+    min-height: 550px;
+    text-align: center;
+    border-radius: 0px;
+    
+}
+.ot-bg-l{
+    padding: 0;
+    h1{
+        font-size: 20px;
+    }
+    p{
+        font-size: 14px;
+    }
+}
+.ot-bg-r{
+    left: 0%;
+    top: 45%;
+    img{
+        width: 80%;
+    }
+    
+}
+.ot-3-top{
+    margin-top: 50px;
+    padding: 10px;
+    h1{
+        font-size: 20px;
+    }
+    p{
+        font-size: 14px;
+    }
+}
+.ot-3-card{
+    flex-basis: 90%;
+    text-align: center;
+    p{
+        font-size: 14px;
+    }
+    h2{
+        font-size: 18px;
+    }
+}
+.ot-3-bottom{
+    padding: 50px;
+    h1{
+        font-size: 42px;
+    }
 }
 
+}
 
