@@ -37,7 +37,7 @@
     }
     .hero-bg{
         min-height: min-content;
-        padding: 120px 0px;
+        /* padding: 120px 0px; */
     }
 
       .open-theme-btn{
@@ -1249,5 +1249,77 @@ button{
     }
 }
 
+.career-2{
+    margin: 10px;
 }
 
+
+.cd{
+    margin: 10px;
+}
+.cd-5-benefits{
+    padding: 10px;
+    h3{
+        font-size: 18px;
+    }
+    p{
+        font-size: 14px;
+    }
+}
+
+.cu-top h1{
+      font-size: 34px;
+  }
+
+  .cu-top p{
+      font-size: 16px;
+  }
+
+  .form-label{
+      font-size: 18px;
+  }
+
+  .form-control,
+  .form-select{
+      font-size: 16px;
+      padding: 15px 10px;
+  }
+
+  .submit-btn{
+      width: 100%;
+      font-size: 18px;
+  }
+
+  /* Footer */
+  .footer{
+      margin: 60px 20px;
+  }
+
+  .footer-top{
+      flex-direction: column;
+      gap: 20px;
+  }
+
+  .ft-l h1{
+      font-size: 26px;
+      padding-right: 0;
+  }
+
+  .ft-r{
+      width: 100%;
+  }
+
+  .ft-r input{
+      width: 100%;
+      padding-right: 10px;
+      margin-bottom: 10px;
+  }
+
+  .ft-btn{
+      width: 100%;
+      margin-left: 0;
+  }
+
+
+
+}

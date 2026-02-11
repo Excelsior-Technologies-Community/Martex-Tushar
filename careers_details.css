@@ -1,0 +1,155 @@
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+/* HEADER NAVBAR */
+#navbar {
+  height: 90px;
+  background: rgba(255, 255, 255, 0.786) !important;
+  backdrop-filter: blur(10px);
+  transition: all 0.8s ease;
+}
+
+/* Inner alignment */
+#navbar .container {
+  justify-content: space-between;
+}
+
+/* Logo */
+.navbar-brand img {
+  width: 165px;
+  transition: 0.35s ease;
+}
+
+/* Menu spacing */
+.header-menu {
+  gap: 28px;
+}
+
+/* Links */
+.nav-link {
+  font-size: 16.5px;
+  font-weight: 500;
+  color: #000 !important;
+}
+
+/* Buttons */
+.sign-in-btn button {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* SCROLL EFFECT */
+#navbar.scrolled {
+  height: 65px;
+  box-shadow: 0px -1px 8px #a9a8a8c9;
+
+}
+
+#navbar.scrolled .navbar-brand img {
+  width: 145px;
+}
+
+
+.cd{
+    max-width: 100%;
+    margin: 100px 200px;    
+}
+.cd-1, .cd-2, .cd-3, .cd-4, .cd-5, .cd-6,.cd-7{
+    margin-bottom: 50px;
+    h4:first-child{
+        color: #757575;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 18px;
+    }
+    h4{
+        font-size: 20px;
+        font-weight: 500;
+        color: #757575;
+        margin-bottom: 40px;
+        
+    }
+    h1{
+        font-size: 60px;
+        font-weight: 700;
+        margin-bottom: 40px;
+    }
+    h2{
+        font-size: 28px;
+        font-weight: 600;
+        margin-bottom: 40px;
+    }
+    p{
+        font-size: 19px;
+        font-weight: 500;
+        color: #757575;
+        margin-bottom: 40px;
+    }
+    li{
+        font-size: 18px;
+        font-weight: 500;
+        color: #757575;
+        margin-bottom: 10px;
+    }
+    h3{
+        font-size: 25px;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+}
+.cd-5-benefits{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f4f4f9;
+    border-radius: 10px;
+    padding: 50px;
+    margin-bottom: 50px;
+    
+}
+.cd-5-benefits div{
+    flex-basis: 50%;
+}
+.apply{
+    width: 100%;
+    font-weight: 600;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+
+}
+.black-logo{
+    text-align: center;
+    padding-top: 100px;
+    img{
+        width: 20%;
+    }
+}
+.cd-ft{
+    text-align: center;
+   margin-bottom: 50px;
+     i{
+    font-size: 22px;
+    color: #757575;
+    margin: 0px 8px;
+    cursor: pointer;
+    margin-top: 50px;
+     }
+}
+.cd-ft a{
+    font-size: 18px;
+    font-weight: 500;
+    color: #757575;
+    text-decoration: none;
+    margin: 0px 15px;
+}
+.cd-ft a:hover{
+    color: #2b2e37;
+    transition: 0.6s;
+}
