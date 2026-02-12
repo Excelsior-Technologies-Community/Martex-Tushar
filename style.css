@@ -949,6 +949,12 @@ body.dark-mode .nav-link {
   margin-top: 30px;
   margin-bottom: 20px;
 }
+.main-14{
+  display: flex;
+  gap: 50px;
+  margin: 100px;
+    align-items: center;
+}
 .main-14l{
   width: 95%;
 }
