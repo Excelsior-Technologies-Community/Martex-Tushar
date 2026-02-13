@@ -587,6 +587,10 @@
         flex-direction: column;
         margin: 10px;
     }
+    .main-4l{
+            order: 1;
+
+    }
     .main-4l h2{
         font-size: 22px;
     }
@@ -606,11 +610,11 @@
     }
     .main-5-head h1{
         font-size: 30px;
-        padding: 0 80px;
+        padding: 0 0px;
 
     }
     .main-5-head p{
-        font-size: 16px;
+        font-size: 18px;
     }
     .main-5-img{
         width: 80%;
@@ -620,6 +624,7 @@
     .main-5-img1, .main-5-img2{
         padding: 25px;
     }
+   
     .main-5-stats{
         flex-direction: column;
         margin: 10px;
@@ -673,6 +678,7 @@
     }
     .main-7r div{
         padding: 25px 30px;
+        width: 100%;
     }
     .main-8{
         flex-direction: column;
@@ -1319,7 +1325,75 @@ button{
       width: 100%;
       margin-left: 0;
   }
+.main-38{
+    margin: 10px;
+    min-height: 55vh;
+     margin: 50px 0;
+}
+  .main-38-top{
+    padding: 0;
+   
+    h1{
+        font-size: 25px;
+        margin: 10px 50px;
+        margin-top: 50px;
+    }
+    p{
+        font-size: 14px;
+        margin: 0;
+    }
+  }
+  .main-38-bottom{
+    padding: 0 20px;
+  }
+  .main-24{
+    margin: 10px;
+    padding: 0;
+    overflow: visible;
+    flex-direction: column;
+  }
+  .main-24r{
+    width: 100%;
+    order: 2;
+}
+.main-24l{
+    margin: 0;
+    position: static;
+    order: 1;
+  }
+  .main-24l img{
+    width: 100%;
+  }
+  .core-1{
+    margin: 10px;
+  }
+  .core-1-top{
+    h1{
+        font-size: 28px;
+    }
+    p{
+        font-size: 18px;
+    }
+  }
+  .core-1-card{
+    flex-basis: 100%;
+  }
 
-
-
+  .main-28{
+    margin: 10px;
+  }
+  .main-28-div{
+    padding: 50px;
+    text-align: center;
+     h1{
+        font-size: 28px;
+    }
+    p{
+        font-size: 18px;
+    }
+    
+  }
+  .main-28-img{
+    display: none;
+  }
 }
